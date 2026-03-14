@@ -1,0 +1,23 @@
+# Dashboard Layout Responsivo - CSS Grid y Flexbox
+
+**Estudiante:** Erick Toloza
+**Módulo:** Programación Web - Unidad 3
+
+## Descripción del Proyecto
+Este proyecto es la implementación de un *Dashboard* moderno y responsivo, diseñado exclusivamente con tecnologías nativas de CSS3 sin el uso de frameworks externos.
+
+**Técnicas implementadas:**
+* **CSS Grid:** Utilizado para definir la macro-arquitectura de la página (organización del Sidebar, Header y Main Content) usando `grid-template-areas`.
+* **CSS Flexbox:** Empleado para la micro-arquitectura, alineando elementos internos como los menús de navegación, iconos del header y el contenido de las tarjetas.
+* **Responsive Design:** Uso de *Media Queries* (`@media (max-width: 768px)`) para transformar el layout bidimensional de Grid en un layout de bloque adaptativo para dispositivos móviles.
+* **Metodología BEM:** Implementación estricta de la convención de nombres Bloque-Elemento-Modificador.
+
+## Instrucciones de Ejecución
+1. Clonar este repositorio localmente.
+2. Abrir el archivo `index.html` en cualquier navegador moderno. No requiere servidor local.
+
+## Vistas del Proyecto
+### Vista Desktop (1280px)
+
+
+### Vista Mobile (768px)
