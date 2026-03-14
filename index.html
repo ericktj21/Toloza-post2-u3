@@ -1,1 +1,66 @@
-ECHO est� activado.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Erick Toloza</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        
+        <aside class="sidebar">
+            <h2 class="sidebar__brand">MiPanel</h2>
+            <nav class="sidebar__nav">
+                <ul class="sidebar__menu">
+                    <li class="sidebar__item"><a href="#" class="sidebar__link">Inicio</a></li>
+                    <li class="sidebar__item"><a href="#" class="sidebar__link">Estadísticas</a></li>
+                    <li class="sidebar__item"><a href="#" class="sidebar__link">Usuarios</a></li>
+                    <li class="sidebar__item"><a href="#" class="sidebar__link">Configuración</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <header class="header">
+            <div class="header__search">
+                <input type="text" placeholder="Buscar..." class="header__input">
+            </div>
+            <div class="header__profile">
+                <span class="header__user">Hola, Erick</span>
+                <div class="header__avatar">ET</div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <h1 class="main-content__title">Resumen del Sistema</h1>
+            
+            <section class="cards-grid">
+                <article class="card">
+                    <h3 class="card__title">Visitas Hoy</h3>
+                    <p class="card__number">1,024</p>
+                </article>
+                <article class="card">
+                    <h3 class="card__title">Ventas</h3>
+                    <p class="card__number">$5,230</p>
+                </article>
+                <article class="card">
+                    <h3 class="card__title">Nuevos Usuarios</h3>
+                    <p class="card__number">48</p>
+                </article>
+                <article class="card">
+                    <h3 class="card__title">Rendimiento</h3>
+                    <p class="card__number">98%</p>
+                </article>
+            </section>
+
+            <section class="recent-activity">
+                <h2>Actividad Reciente</h2>
+                <div class="activity-box">
+                    <p>El sistema funciona correctamente. No hay alertas nuevas.</p>
+                </div>
+            </section>
+        </main>
+
+    </div>
+</body>
+</html>
